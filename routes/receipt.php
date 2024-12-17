@@ -8,3 +8,4 @@ use Illuminate\Support\Facades\Route;
 Route::resource('receipt', ReceiptController::class);
 
 Route::get('/', [ReceiptController::class, 'test']);
+Route::get('test', [ReceiptController::class, 'test1']);
